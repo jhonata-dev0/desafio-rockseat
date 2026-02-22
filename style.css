@@ -1,0 +1,56 @@
+header { 
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #121214;
+padding: 24px 40px ;
+}
+.rating {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+.rating img {
+width: 16px;
+}
+.btn-more {
+  display: inline-block;
+  background-color: #00a0a0
+  color(white)
+  text-decoration: none;
+
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btnmore:hover {
+  background-color: #008080;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.stars img {
+  width: 14px;
+}
+
+.btn-saiba-mais {
+  display: inline-block;
+  background-color: #00a0a0;
+  color: white; 
+ text-decoration: none;
+
+ padding: 10px 24px;
+ border-radius: 8px;
+ font-weight: bold;
+ font-size: 14px;
+}
+
+.btn-saiba-mais:hover {
+background-color: #008080;
+}
